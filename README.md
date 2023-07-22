@@ -30,10 +30,26 @@ Users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+####  Newsletter Page Desktop View
+![Desktop View](../public/desktop-view-newsletter-page.png)
+  #### Newsletter Page Desktop View Active State
+  ![Desktop View Active State](../public/desktop-view-newsletter-page-active-state.png)
+  ####  Newsletter Page Desktop View Error State
+  ![Desktop View Error State](../public/desktop-view-newsletter-page-error-state.png)
 
+#### Success Page Desktop View
+![Desktop View](../public/desktop-view-success-page.png)
+
+  #### Success Page Desktop View Active State
+  ![Desktop View Active State](../public/desktop-view-success-page-active-state.png)
+
+#### Mobile View
+![Mobile View](../public/mobile-view-newsletter-page.png)
+
+#### Mobile View Active State
+![Mobile View Active State](../public/mobile-view-newsletter-page-active-state.png)
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
@@ -61,4 +77,22 @@ const validateEmail = (email) => {
   const regex = /\S+@\S+\.\S+/;
   return regex.test(email);
 }
- 
+
+```
+ ### Continued development
+
+In the future, I plan to improve the design's responsiveness and accessibility. 
+
+### Useful resources
+
+- [React Documentation](https://reactjs.org/docs/getting-started.html) - This helped me understand React's state and how to use it for form validation.
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) - This is always an incredible resource that I refer to when I'm stuck, especially when dealing with JavaScript.
+
+## Author
+
+- GitHub - [@yourusername](https://github.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+
+## Acknowledgments
+
+I want to acknowledge the Frontend Mentor platform for providing such interesting challenges that help me improve my coding skills.
